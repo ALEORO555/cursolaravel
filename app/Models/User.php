@@ -17,11 +17,14 @@ class User extends Authenticatable
      *
      * @var list<string>
      */
+    //esto es un comentario que hace aza, para que ale preciosa entienda como funciona git
     protected $fillable = [
         'name',
         'email',
         'password',
     ];
+
+
 
     /**
      * The attributes that should be hidden for serialization.
